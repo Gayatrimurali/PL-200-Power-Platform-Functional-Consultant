@@ -20,19 +20,19 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1.  Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. 
 
-2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**.
+2.  In a new browser tab inside the virtual machine, navigate to `https://powerapps.microsoft.com` and select **Start free**.
 
     ![](../media/module0.png)
 
-4.  Enter the `email address` provided by the Authorized Lab Host. 
+3.  On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-5.  Select **Sign in**. 
+4.  Now enter the password and click on Sign in.
+    * Password: <inject key="AzureAdUserPassword"></inject>
 
-6.  Enter the `password` provided by the Authorized Lab Host. 
+5.  Select **Yes** to stay signed in. 
 
-7.  Select **Yes** to stay signed in. 
-
-8.  The Power Apps maker portal will load in a new tab. 
+6.  The Power Apps maker portal will load in a new tab. 
 
 
 ### Task 1.2 – Verify your Power Apps license has been assigned
